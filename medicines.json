@@ -1,0 +1,105 @@
+{
+    "medicines": [
+      {
+        "medicine_id": 1,
+        "name": "Amoxicillin",
+        "generic_name": "Amoxicillin",
+        "brand_name": "Amoxil",
+        "category": "Antibiotic",
+        "form": "Capsule",
+        "dosage": "500mg",
+        "description": "Amoxicillin is a penicillin antibiotic that fights bacteria.",
+        "side_effects": "Nausea, vomiting, diarrhea, rash",
+        "contraindications": "Allergy to penicillin or cephalosporin antibiotics",
+        "manufacturer": {
+          "manufacturer_id": 101,
+          "name": "GlaxoSmithKline",
+          "address": "123 Pharma Road, New York, NY",
+          "contact_info": "+1-800-555-1234"
+        },
+        "expiry_date": "2025-08-30",
+        "quantity_available": 150
+      },
+      {
+        "medicine_id": 2,
+        "name": "Ibuprofen",
+        "generic_name": "Ibuprofen",
+        "brand_name": "Advil",
+        "category": "Analgesic",
+        "form": "Tablet",
+        "dosage": "200mg",
+        "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that reduces hormones that cause inflammation and pain in the body.",
+        "side_effects": "Stomach pain, heartburn, nausea, dizziness",
+        "contraindications": "History of stomach ulcers, bleeding disorders, severe kidney impairment",
+        "manufacturer": {
+          "manufacturer_id": 102,
+          "name": "Pfizer",
+          "address": "456 Healthcare Ave, Los Angeles, CA",
+          "contact_info": "+1-800-555-5678"
+        },
+        "expiry_date": "2026-03-15",
+        "quantity_available": 300
+      },
+      {
+        "medicine_id": 3,
+        "name": "Metformin",
+        "generic_name": "Metformin",
+        "brand_name": "Glucophage",
+        "category": "Antidiabetic",
+        "form": "Tablet",
+        "dosage": "500mg",
+        "description": "Metformin is an oral diabetes medicine that helps control blood sugar levels.",
+        "side_effects": "Nausea, upset stomach, diarrhea, metallic taste in the mouth",
+        "contraindications": "Severe renal impairment, acute or chronic metabolic acidosis",
+        "manufacturer": {
+          "manufacturer_id": 103,
+          "name": "Bristol-Myers Squibb",
+          "address": "789 Health Blvd, Boston, MA",
+          "contact_info": "+1-800-555-9012"
+        },
+        "expiry_date": "2024-11-25",
+        "quantity_available": 200
+      },
+      {
+        "medicine_id": 4,
+        "name": "Paracetamol",
+        "generic_name": "Paracetamol",
+        "brand_name": "Tylenol",
+        "category": "Analgesic",
+        "form": "Tablet",
+        "dosage": "500mg",
+        "description": "Paracetamol is a common pain reliever and a fever reducer.",
+        "side_effects": "Rarely, allergic reactions like rash, itching, or swelling",
+        "contraindications": "Severe liver impairment",
+        "manufacturer": {
+          "manufacturer_id": 104,
+          "name": "Johnson & Johnson",
+          "address": "234 Wellness Street, San Francisco, CA",
+          "contact_info": "+1-800-555-3456"
+        },
+        "expiry_date": "2026-05-10",
+        "quantity_available": 500
+      },
+      {
+        "medicine_id": 5,
+        "name": "Atorvastatin",
+        "generic_name": "Atorvastatin",
+        "brand_name": "Lipitor",
+        "category": "Cholesterol-lowering",
+        "form": "Tablet",
+        "dosage": "20mg",
+        "description": "Atorvastatin is a statin medication used to lower cholesterol and reduce the risk of heart disease.",
+        "side_effects": "Muscle pain, weakness, headache, nausea",
+        "contraindications": "Liver disease, pregnancy, breastfeeding",
+        "manufacturer": {
+          "manufacturer_id": 105,
+          "name": "Pfizer",
+          "address": "456 Healthcare Ave, Los Angeles, CA",
+          "contact_info": "+1-800-555-5678"
+        },
+        "expiry_date": "2025-12-20",
+        "quantity_available": 100
+      }
+    ]
+  }
+  
