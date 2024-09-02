@@ -1,105 +1,405 @@
 {
-    "medicines": [
-      {
-        "medicine_id": 1,
-        "name": "Amoxicillin",
-        "generic_name": "Amoxicillin",
-        "brand_name": "Amoxil",
-        "category": "Antibiotic",
-        "form": "Capsule",
-        "dosage": "500mg",
-        "description": "Amoxicillin is a penicillin antibiotic that fights bacteria.",
-        "side_effects": "Nausea, vomiting, diarrhea, rash",
-        "contraindications": "Allergy to penicillin or cephalosporin antibiotics",
-        "manufacturer": {
-          "manufacturer_id": 101,
-          "name": "GlaxoSmithKline",
-          "address": "123 Pharma Road, New York, NY",
-          "contact_info": "+1-800-555-1234"
-        },
-        "expiry_date": "2025-08-30",
-        "quantity_available": 150
+  "medicines": [
+    {
+      "medicine_id": 1,
+      "name": "Amoxicillin",
+      "generic_name": "Amoxicillin",
+      "brand_name": "Amoxil",
+      "category": "Antibiotic",
+      "form": "Capsule",
+      "dosage": "500mg",
+      "description": "Amoxicillin is a penicillin antibiotic that fights bacteria.",
+      "side_effects": "Nausea, vomiting, diarrhea, rash",
+      "contraindications": "Allergy to penicillin or cephalosporin antibiotics",
+      "manufacturer": {
+        "manufacturer_id": 101,
+        "name": "GlaxoSmithKline",
+        "address": "123 Pharma Road, New York, NY",
+        "contact_info": "+1-800-555-1234"
       },
-      {
-        "medicine_id": 2,
-        "name": "Ibuprofen",
-        "generic_name": "Ibuprofen",
-        "brand_name": "Advil",
-        "category": "Analgesic",
-        "form": "Tablet",
-        "dosage": "200mg",
-        "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that reduces hormones that cause inflammation and pain in the body.",
-        "side_effects": "Stomach pain, heartburn, nausea, dizziness",
-        "contraindications": "History of stomach ulcers, bleeding disorders, severe kidney impairment",
-        "manufacturer": {
-          "manufacturer_id": 102,
-          "name": "Pfizer",
-          "address": "456 Healthcare Ave, Los Angeles, CA",
-          "contact_info": "+1-800-555-5678"
-        },
-        "expiry_date": "2026-03-15",
-        "quantity_available": 300
+      "expiry_date": "2025-08-30",
+      "quantity_available": 150
+    },
+    {
+      "medicine_id": 2,
+      "name": "Ibuprofen",
+      "generic_name": "Ibuprofen",
+      "brand_name": "Advil",
+      "category": "Analgesic",
+      "form": "Tablet",
+      "dosage": "200mg",
+      "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that reduces hormones that cause inflammation and pain in the body.",
+      "side_effects": "Stomach pain, heartburn, nausea, dizziness",
+      "contraindications": "History of stomach ulcers, bleeding disorders, severe kidney impairment",
+      "manufacturer": {
+        "manufacturer_id": 102,
+        "name": "Pfizer",
+        "address": "456 Healthcare Ave, Los Angeles, CA",
+        "contact_info": "+1-800-555-5678"
       },
-      {
-        "medicine_id": 3,
-        "name": "Metformin",
-        "generic_name": "Metformin",
-        "brand_name": "Glucophage",
-        "category": "Antidiabetic",
-        "form": "Tablet",
-        "dosage": "500mg",
-        "description": "Metformin is an oral diabetes medicine that helps control blood sugar levels.",
-        "side_effects": "Nausea, upset stomach, diarrhea, metallic taste in the mouth",
-        "contraindications": "Severe renal impairment, acute or chronic metabolic acidosis",
-        "manufacturer": {
-          "manufacturer_id": 103,
-          "name": "Bristol-Myers Squibb",
-          "address": "789 Health Blvd, Boston, MA",
-          "contact_info": "+1-800-555-9012"
-        },
-        "expiry_date": "2024-11-25",
-        "quantity_available": 200
+      "expiry_date": "2026-03-15",
+      "quantity_available": 300
+    },
+    {
+      "medicine_id": 3,
+      "name": "Metformin",
+      "generic_name": "Metformin",
+      "brand_name": "Glucophage",
+      "category": "Antidiabetic",
+      "form": "Tablet",
+      "dosage": "500mg",
+      "description": "Metformin is an oral diabetes medicine that helps control blood sugar levels.",
+      "side_effects": "Nausea, upset stomach, diarrhea, metallic taste in the mouth",
+      "contraindications": "Severe renal impairment, acute or chronic metabolic acidosis",
+      "manufacturer": {
+        "manufacturer_id": 103,
+        "name": "Bristol-Myers Squibb",
+        "address": "789 Health Blvd, Boston, MA",
+        "contact_info": "+1-800-555-9012"
       },
-      {
-        "medicine_id": 4,
-        "name": "Paracetamol",
-        "generic_name": "Paracetamol",
-        "brand_name": "Tylenol",
-        "category": "Analgesic",
-        "form": "Tablet",
-        "dosage": "500mg",
-        "description": "Paracetamol is a common pain reliever and a fever reducer.",
-        "side_effects": "Rarely, allergic reactions like rash, itching, or swelling",
-        "contraindications": "Severe liver impairment",
-        "manufacturer": {
-          "manufacturer_id": 104,
-          "name": "Johnson & Johnson",
-          "address": "234 Wellness Street, San Francisco, CA",
-          "contact_info": "+1-800-555-3456"
-        },
-        "expiry_date": "2026-05-10",
-        "quantity_available": 500
+      "expiry_date": "2024-11-25",
+      "quantity_available": 200
+    },
+    {
+      "medicine_id": 4,
+      "name": "Paracetamol",
+      "generic_name": "Paracetamol",
+      "brand_name": "Tylenol",
+      "category": "Analgesic",
+      "form": "Tablet",
+      "dosage": "500mg",
+      "description": "Paracetamol is a common pain reliever and a fever reducer.",
+      "side_effects": "Rarely, allergic reactions like rash, itching, or swelling",
+      "contraindications": "Severe liver impairment",
+      "manufacturer": {
+        "manufacturer_id": 104,
+        "name": "Johnson & Johnson",
+        "address": "234 Wellness Street, San Francisco, CA",
+        "contact_info": "+1-800-555-3456"
       },
+      "expiry_date": "2026-05-10",
+      "quantity_available": 500
+    },
+    {
+      "medicine_id": 5,
+      "name": "Atorvastatin",
+      "generic_name": "Atorvastatin",
+      "brand_name": "Lipitor",
+      "category": "Cholesterol-lowering",
+      "form": "Tablet",
+      "dosage": "20mg",
+      "description": "Atorvastatin is a statin medication used to lower cholesterol and reduce the risk of heart disease.",
+      "side_effects": "Muscle pain, weakness, headache, nausea",
+      "contraindications": "Liver disease, pregnancy, breastfeeding",
+      "manufacturer": {
+        "manufacturer_id": 105,
+        "name": "Pfizer",
+        "address": "456 Healthcare Ave, Los Angeles, CA",
+        "contact_info": "+1-800-555-5678"
+      },
+      "expiry_date": "2025-12-20",
+      "quantity_available": 100
+    },
+    {
+      "medicine_id": 6,
+      "name": "Ciprofloxacin",
+      "generic_name": "Ciprofloxacin",
+      "brand_name": "Cipro",
+      "category": "Antibiotic",
+      "form": "Tablet",
+      "dosage": "500mg",
+      "description": "Ciprofloxacin is an antibiotic that fights bacteria in the body.",
+      "side_effects": "Nausea, diarrhea, dizziness, rash",
+      "contraindications": "Allergy to ciprofloxacin or other fluoroquinolones",
+      "manufacturer": {
+        "manufacturer_id": 106,
+        "name": "Bayer",
+        "address": "123 Health Drive, Chicago, IL",
+        "contact_info": "+1-800-555-6789"
+      },
+      "expiry_date": "2025-09-30",
+      "quantity_available": 250
+    },
+    {
+      "medicine_id": 7,
+      "name": "Lorazepam",
+      "generic_name": "Lorazepam",
+      "brand_name": "Ativan",
+      "category": "Antianxiety",
+      "form": "Tablet",
+      "dosage": "1mg",
+      "description": "Lorazepam is used to treat anxiety disorders.",
+      "side_effects": "Drowsiness, dizziness, tired feeling, weakness",
+      "contraindications": "Allergy to benzodiazepines, severe liver disease",
+      "manufacturer": {
+        "manufacturer_id": 107,
+        "name": "Roche",
+        "address": "456 Medicine Blvd, San Diego, CA",
+        "contact_info": "+1-800-555-7890"
+      },
+      "expiry_date": "2024-12-15",
+      "quantity_available": 180
+    },
+    {
+      "medicine_id": 8,
+      "name": "Lisinopril",
+      "generic_name": "Lisinopril",
+      "brand_name": "Prinivil",
+      "category": "Antihypertensive",
+      "form": "Tablet",
+      "dosage": "10mg",
+      "description": "Lisinopril is used to treat high blood pressure and heart failure.",
+      "side_effects": "Cough, headache, dizziness, rash",
+      "contraindications": "History of angioedema, pregnancy",
+      "manufacturer": {
+        "manufacturer_id": 108,
+        "name": "Merck",
+        "address": "789 Cardiovascular Rd, Houston, TX",
+        "contact_info": "+1-800-555-8901"
+      },
+      "expiry_date": "2026-02-28",
+      "quantity_available": 220
+    },
+    {
+      "medicine_id": 9,
+      "name": "Cetirizine",
+      "generic_name": "Cetirizine",
+      "brand_name": "Zyrtec",
+      "category": "Antihistamine",
+      "form": "Tablet",
+      "dosage": "10mg",
+      "description": "Cetirizine is an antihistamine used to relieve allergy symptoms.",
+      "side_effects": "Drowsiness, dry mouth, headache, nausea",
+      "contraindications": "Severe renal impairment",
+      "manufacturer": {
+        "manufacturer_id": 109,
+        "name": "Johnson & Johnson",
+        "address": "234 Wellness Street, San Francisco, CA",
+        "contact_info": "+1-800-555-3456"
+      },
+      "expiry_date": "2025-11-20",
+      "quantity_available": 350
+    },
+    {
+      "medicine_id": 10,
+      "name": "Omeprazole",
+      "generic_name": "Omeprazole",
+      "brand_name": "Prilosec",
+      "category": "Proton Pump Inhibitor",
+      "form": "Capsule",
+      "dosage": "20mg",
+      "description": "Omeprazole is used to treat gastroesophageal reflux disease (GERD).",
+      "side_effects": "Headache, nausea, diarrhea, abdominal pain",
+      "contraindications": "Severe liver impairment",
+      "manufacturer": {
+        "manufacturer_id": 110,
+        "name": "AstraZeneca",
+        "address": "123 Gastro Street, Philadelphia, PA",
+        "contact_info": "+1-800-555-9012"
+      },
+      "expiry_date": "2026-06-30",
+      "quantity_available": 300
+    },
       {
-        "medicine_id": 5,
-        "name": "Atorvastatin",
-        "generic_name": "Atorvastatin",
-        "brand_name": "Lipitor",
-        "category": "Cholesterol-lowering",
-        "form": "Tablet",
-        "dosage": "20mg",
-        "description": "Atorvastatin is a statin medication used to lower cholesterol and reduce the risk of heart disease.",
-        "side_effects": "Muscle pain, weakness, headache, nausea",
-        "contraindications": "Liver disease, pregnancy, breastfeeding",
-        "manufacturer": {
-          "manufacturer_id": 105,
-          "name": "Pfizer",
-          "address": "456 Healthcare Ave, Los Angeles, CA",
-          "contact_info": "+1-800-555-5678"
-        },
-        "expiry_date": "2025-12-20",
-        "quantity_available": 100
-      }
-    ]
-  }
-  
+      "medicine_id": 1,
+      "name": "Amoxicillin",
+      "generic_name": "Amoxicillin",
+      "brand_name": "Amoxil",
+      "category": "Antibiotic",
+      "form": "Capsule",
+      "dosage": "500mg",
+      "description": "Amoxicillin is a penicillin antibiotic that fights bacteria.",
+      "side_effects": "Nausea, vomiting, diarrhea, rash",
+      "contraindications": "Allergy to penicillin or cephalosporin antibiotics",
+      "manufacturer": {
+        "manufacturer_id": 101,
+        "name": "GlaxoSmithKline",
+        "address": "123 Pharma Road, New York, NY",
+        "contact_info": "+1-800-555-1234"
+      },
+      "expiry_date": "2025-08-30",
+      "quantity_available": 150
+    },
+    {
+      "medicine_id": 2,
+      "name": "Ibuprofen",
+      "generic_name": "Ibuprofen",
+      "brand_name": "Advil",
+      "category": "Analgesic",
+      "form": "Tablet",
+      "dosage": "200mg",
+      "description": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) that reduces hormones that cause inflammation and pain in the body.",
+      "side_effects": "Stomach pain, heartburn, nausea, dizziness",
+      "contraindications": "History of stomach ulcers, bleeding disorders, severe kidney impairment",
+      "manufacturer": {
+        "manufacturer_id": 102,
+        "name": "Pfizer",
+        "address": "456 Healthcare Ave, Los Angeles, CA",
+        "contact_info": "+1-800-555-5678"
+      },
+      "expiry_date": "2026-03-15",
+      "quantity_available": 300
+    },
+    {
+      "medicine_id": 3,
+      "name": "Metformin",
+      "generic_name": "Metformin",
+      "brand_name": "Glucophage",
+      "category": "Antidiabetic",
+      "form": "Tablet",
+      "dosage": "500mg",
+      "description": "Metformin is an oral diabetes medicine that helps control blood sugar levels.",
+      "side_effects": "Nausea, upset stomach, diarrhea, metallic taste in the mouth",
+      "contraindications": "Severe renal impairment, acute or chronic metabolic acidosis",
+      "manufacturer": {
+        "manufacturer_id": 103,
+        "name": "Bristol-Myers Squibb",
+        "address": "789 Health Blvd, Boston, MA",
+        "contact_info": "+1-800-555-9012"
+      },
+      "expiry_date": "2024-11-25",
+      "quantity_available": 200
+    },
+    {
+      "medicine_id": 4,
+      "name": "Paracetamol",
+      "generic_name": "Paracetamol",
+      "brand_name": "Tylenol",
+      "category": "Analgesic",
+      "form": "Tablet",
+      "dosage": "500mg",
+      "description": "Paracetamol is a common pain reliever and a fever reducer.",
+      "side_effects": "Rarely, allergic reactions like rash, itching, or swelling",
+      "contraindications": "Severe liver impairment",
+      "manufacturer": {
+        "manufacturer_id": 104,
+        "name": "Johnson & Johnson",
+        "address": "234 Wellness Street, San Francisco, CA",
+        "contact_info": "+1-800-555-3456"
+      },
+      "expiry_date": "2026-05-10",
+      "quantity_available": 500
+    },
+    {
+      "medicine_id": 5,
+      "name": "Atorvastatin",
+      "generic_name": "Atorvastatin",
+      "brand_name": "Lipitor",
+      "category": "Cholesterol-lowering",
+      "form": "Tablet",
+      "dosage": "20mg",
+      "description": "Atorvastatin is a statin medication used to lower cholesterol and reduce the risk of heart disease.",
+      "side_effects": "Muscle pain, weakness, headache, nausea",
+      "contraindications": "Liver disease, pregnancy, breastfeeding",
+      "manufacturer": {
+        "manufacturer_id": 105,
+        "name": "Pfizer",
+        "address": "456 Healthcare Ave, Los Angeles, CA",
+        "contact_info": "+1-800-555-5678"
+      },
+      "expiry_date": "2025-12-20",
+      "quantity_available": 100
+    },
+    {
+      "medicine_id": 6,
+      "name": "Ciprofloxacin",
+      "generic_name": "Ciprofloxacin",
+      "brand_name": "Cipro",
+      "category": "Antibiotic",
+      "form": "Tablet",
+      "dosage": "500mg",
+      "description": "Ciprofloxacin is an antibiotic that fights bacteria in the body.",
+      "side_effects": "Nausea, diarrhea, dizziness, rash",
+      "contraindications": "Allergy to ciprofloxacin or other fluoroquinolones",
+      "manufacturer": {
+        "manufacturer_id": 106,
+        "name": "Bayer",
+        "address": "123 Health Drive, Chicago, IL",
+        "contact_info": "+1-800-555-6789"
+      },
+      "expiry_date": "2025-09-30",
+      "quantity_available": 250
+    },
+    {
+      "medicine_id": 7,
+      "name": "Lorazepam",
+      "generic_name": "Lorazepam",
+      "brand_name": "Ativan",
+      "category": "Antianxiety",
+      "form": "Tablet",
+      "dosage": "1mg",
+      "description": "Lorazepam is used to treat anxiety disorders.",
+      "side_effects": "Drowsiness, dizziness, tired feeling, weakness",
+      "contraindications": "Allergy to benzodiazepines, severe liver disease",
+      "manufacturer": {
+        "manufacturer_id": 107,
+        "name": "Roche",
+        "address": "456 Medicine Blvd, San Diego, CA",
+        "contact_info": "+1-800-555-7890"
+      },
+      "expiry_date": "2024-12-15",
+      "quantity_available": 180
+    },
+    {
+      "medicine_id": 8,
+      "name": "Lisinopril",
+      "generic_name": "Lisinopril",
+      "brand_name": "Prinivil",
+      "category": "Antihypertensive",
+      "form": "Tablet",
+      "dosage": "10mg",
+      "description": "Lisinopril is used to treat high blood pressure and heart failure.",
+      "side_effects": "Cough, headache, dizziness, rash",
+      "contraindications": "History of angioedema, pregnancy",
+      "manufacturer": {
+        "manufacturer_id": 108,
+        "name": "Merck",
+        "address": "789 Cardiovascular Rd, Houston, TX",
+        "contact_info": "+1-800-555-8901"
+      },
+      "expiry_date": "2026-02-28",
+      "quantity_available": 220
+    },
+    {
+      "medicine_id": 9,
+      "name": "Cetirizine",
+      "generic_name": "Cetirizine",
+      "brand_name": "Zyrtec",
+      "category": "Antihistamine",
+      "form": "Tablet",
+      "dosage": "10mg",
+      "description": "Cetirizine is an antihistamine used to relieve allergy symptoms.",
+      "side_effects": "Drowsiness, dry mouth, headache, nausea",
+      "contraindications": "Severe renal impairment",
+      "manufacturer": {
+        "manufacturer_id": 109,
+        "name": "Johnson & Johnson",
+        "address": "234 Wellness Street, San Francisco, CA",
+        "contact_info": "+1-800-555-3456"
+      },
+      "expiry_date": "2025-11-20",
+      "quantity_available": 350
+    },
+    {
+      "medicine_id": 10,
+      "name": "Omeprazole",
+      "generic_name": "Omeprazole",
+      "brand_name": "Prilosec",
+      "category": "Proton Pump Inhibitor",
+      "form": "Capsule",
+      "dosage": "20mg",
+      "description": "Omeprazole is used to treat gastroesophageal reflux disease (GERD).",
+      "side_effects": "Headache, nausea, diarrhea, abdominal pain",
+      "contraindications": "Severe liver impairment",
+      "manufacturer": {
+        "manufacturer_id": 110,
+        "name": "AstraZeneca",
+        "address": "123 Gastro Street, Philadelphia, PA",
+        "contact_info": "+1-800-555-9012"
+      },
+      "expiry_date": "2026-06-30",
+      "quantity_available": 300
+    }
+      
+  ]
+}
